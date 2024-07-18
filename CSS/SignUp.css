@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: linear-gradient(white 95%, rgb(0, 85, 85) 100%, white 950%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container{
+    margin-top: 210px;
+}
+h1{
+    font-size: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#registro{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 60px;
+    margin: 20px 100px;
+    color: white;
+    text-decoration: none;
+}
+#registro:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+
+.form{
+    margin: auto;
+    width: 400px;
+    background: rgb(37, 51, 44);
+    padding: 30px;
+    border-radius: 4px;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+}
+.form h4{
+font-size: 22px;
+margin-bottom: 20px;
+}
+
+input,select{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 18px;
+}
+    .form a{
+        color: white;
+        text-decoration: none;
+        }
+        .form a:hover{
+            color: rgb(0, 252, 176);
+            text-decoration: underline;
+            }
+
+@media(max-width: 768px){
+    h1{
+        font-size: 100px;
+    }
+    #registro{
+        display: block;
+        padding: 10px 30px;
+        margin: 30px 100px;  
+    }
+}

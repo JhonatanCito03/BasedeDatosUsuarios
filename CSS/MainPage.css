@@ -1,0 +1,41 @@
+body{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: linear-gradient(white 95%, black 100%, white 950%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 20px 100px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+@media(max-width: 768px){
+    h1{
+        font-size: 100px;
+    }
+    a{
+        display: block;
+        padding: 10px 30px;
+        margin: 30px 100px;  
+    }
+}
