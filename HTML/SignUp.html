@@ -19,13 +19,10 @@
 <div class="form" style="display: none; margin-bottom: 35px;" id="formulario">
 <form action="">
     <h4 style="margin-left: 85px;">formulario de registro</h4>
-    <input type="controls" name="nombre" id="nombre" placeholder="Ingrese su primer nombre (requerido)">
-    <h6 style="color: red; background-color: transparent; font-family: 'Courier New', Courier, monospace; margin: auto; display: none;" id="errorName">Su nombre es requerido</h6>
-    <input type="controls" name="segundoNombre" id="nombre2" placeholder="Ingrese su segundo nombre (opcional)">
-    <input type="controls" name="apellido" id="apellido" placeholder="Ingrese su primer apellido (requerido)">
-    <h6 style="color: red; background-color: transparent; font-family: 'Courier New', Courier, monospace; margin: auto; display: none;" id="errorApellido">Su primer apellido es requerido</h6>
-    <input type="controls" name="segundoApellido" id="apellido2" placeholder="Ingrese su segundo apellido (requerido)">
-    <h6 style="color: red; background-color: transparent; font-family: 'Courier New', Courier, monospace; margin: auto; display: none;" id="errorApellido2">Su segundo apellido es requerido</h6>
+    <input type="text" id="nombre" placeholder="Ingrese su primer nombre (requerido)">
+    <input type="text" name="segundoNombre" id="nombre2" placeholder="Ingrese su segundo nombre (opcional)">
+    <input type="text" name="apellido" id="apellido" placeholder="Ingrese su primer apellido (requerido)">
+    <input type="text" name="segundoApellido" id="apellido2" placeholder="Ingrese su segundo apellido (requerido)">
     <select name="seleccion" id="seleccion">
         <option value="none" style="display: none;" selected>Tipo de documento (requerido)</option>
         <option value="Cédula de ciudadanía">Cédula de ciudadania</option>
@@ -33,26 +30,19 @@
         <option value="Tarjeta de extranjería">Tarjeta de extranjería</option>
         <option value="Cédula de identidad">Cédula de identidad</option>
     </select>
-    <h6 style="color: red; background-color: transparent; font-family: 'Courier New', Courier, monospace; margin: auto; display: none;" id="errorDocumentoTipo" name="errorDocumentoTipo">Su tipo de documento es requerido</h6>
     <input type="number" name="numerodocumento" id="numerodocumento" placeholder="Número de documento(requerido)">
-    <h6 style="color: red; background-color: transparent; font-family: 'Courier New', Courier, monospace; margin: auto; display: none;" id="errorNumdocumento">Por favor digite un número válido</h6>
-    <input type="controls" name="correo" id="correo" placeholder="dirección de correo electrónico (requerido)">
-    <h6 style="color: red; background-color: transparent; font-family: 'Courier New', Courier, monospace; margin: auto; display: none;" id="errorCorreo">Su correo es requerido</h6>
+    <input type="text" name="correo" id="correo" placeholder="dirección de correo electrónico (requerido)">
     <input type="password" name="contraseña" id="contraseña" placeholder="contraseña">
-    <h6 style="color: red; background-color: transparent; font-family: 'Courier New', Courier, monospace; margin: auto; display: none;" id="errorContraseña">Su constraseña es requerida</h6>
     <input type="password" name="contraseña2" id="contraseña2" placeholder="vuelva a escribir su contraseña">
-    <h6 style="color: red; background-color: transparent; font-family: 'Courier New', Courier, monospace; margin: auto; display: none;" id="errorContraseña21">la contraseña está vacía</h6>
-    <h6 style="color: red; background-color: transparent; font-family: 'Courier New', Courier, monospace; margin: auto; display: none;" id="errorContraseña2">Su las contraseñas no coinciden</h6>
     <h4 style="margin-left: 110px;">Tipo de Cliente</h4>
     <select name="tipoCliente" id="tipoCliente">
         <option value="normal">normal</option>
         <option value="preferencial">preferencial</option>
     </select>
-    <p><a href="/HTML/SignIn.html" style="margin-left: 115px;">¿Ya tienes cuenta?</a></p>
+    <p><a href="/HTML/factura.html" style="margin-left: 115px;">¿Ya tienes cuenta?</a></p>
     <a onclick="getData()">registrarse</a>
 </form>
 </div>
 </body>
 <script src="/JS/SignUp.js"></script>
-<script src="/JS/SignIn.js"></script>
 </html>
